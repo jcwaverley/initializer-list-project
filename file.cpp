@@ -17,6 +17,14 @@ int main()
 	
 	cout << "Will make further modifications to this file by adding arrays/vectors" << endl;
 
-	return 0;
+        cout << endl;
+
+	// output first 5 array element's value
+	for (int i = 0; i < 5; ++i)
+		cout << setw( 7 ) << i << setw (15 ) << n[ i ] << endl;
+
+        
+        return 0;
+	 
 
 } // end main
